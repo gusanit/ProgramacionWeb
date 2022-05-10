@@ -3,34 +3,48 @@
   <head>
     <meta charset="utf-8">
     <title>Tarea Unidad 2 CV</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css"/>
   </head>
   <body>
     <main>
-      <header>
-        <h1>Agustina Passeron</h1>
+      <header id="titulo">
+        <h1 class="item1">Agustina Passeron</h1>
       </header>
-      <img src="images/fotocv.jpg" alt="imagen de portada">
-      <h2>26 años<h2>
-      <h2>Estudiante de Diseño Gráfico y Fotógrafa<h2>
-      <h3>¿Que pelis me gustán?</h3>
-      <ul>
-        <li>Amelie</li>
-        <li>In the mood for love</li>
-        <li>Point Break</li>
-      </ul>
-      <h3>Top 3 músicxs</h3>
-      <ol>
-        <li>Juana Molina</li>
-        <li>Chet Baker</li>
-        <li>Julian Casablancas</li>
-      </ol>
-      <h3>Perfil</h3>
-      <p>Me gusta sacar fotos analógicas</p>
-      <p>Escucho música todos los días</p>
-      <p>Me gusta la montaña y las actividades al aire libre</p>
+      <div id="infoprincipal">
+        <img class="item2" src="images/fotocv.jpg" alt="imagen de portada">
+        <h2 class="item2">26 años<h2>
+        <h2 class="italica" class="item2">Estudiante de Diseño Gráfico y Fotógrafa<h2>
+      </div>
+      <div id="datos">
+        <div id="pelis">
+          <h3>¿Que pelis me gustan?</h3>
+          <ul class="sansserif">
+            <li>Amelie</li>
+            <li>In the mood for love</li>
+            <li>Point Break</li>
+          </ul>
+        </div>
+        <div id="musicxs">
+          <h3>Top 3 músicxs</h3>
+          <ol class="sansserif">
+            <li>Juana Molina</li>
+            <li>Chet Baker</li>
+            <li>Julian Casablancas</li>
+          </ol>
+        </div>
+      </div>
+      <div id="gustos">
+        <h3 id="perfil" class="italica">Perfil</h3>
+        <div id="contenedor" class="sansserif">
+          <p class="destacados" id="fotos"> Me gusta sacar fotos analógicas</p>
+          <p>Escucho <span class="destacados"> música </span> todos los días. Me gusta el jazz y los boleros. También la música instrumental y ambient.</p>
+          <p>Me gusta la montaña y las actividades al aire libre</p>
+        </div>
+        </div>
+      </div>
     </main>
     <footer>
-      <h4>Si querés contactarme podes completar el siguiente <a href=formulario.html> formulario </a>
+      <h4 class="italica">Si querés contactarme podes completar el siguiente <a href=formulario.html> formulario </a>
     </footer>
   </body>
 </html>

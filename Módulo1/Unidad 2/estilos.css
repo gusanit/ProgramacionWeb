@@ -1,0 +1,79 @@
+body{
+  background: #ff00ee;
+  background: linear-gradient(90deg,#ff00ee 0%, #fbccf8 40%, #00ff00 80%);
+  background: -webkit-linear-gradient(90deg,#ff00ee 0%, #fbccf8 40%, #00ff00 80%);
+  background: -moz-linear-gradient(90deg,#ff00ee 0%, #fbccf8 40%, #00ff00 80%);
+}
+h1{
+    font-weight: 700;
+    color: deeppink;
+    font-size: 70px;
+    font-weight: lighter;
+    font-style: italic;
+    margin: 0px;
+}
+.item1:hover{
+  color: pink
+}
+#titulo{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+h2{
+    font-family: helvetica;
+    color: black;
+    font-size: 15px;
+}
+#infoprincipal{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+}
+h3{
+    color: pink;
+    text-transform: uppercase;/*mayúscula*/
+    font-size: 20px;
+    margin: 10px;
+}
+.destacados{
+    font-weight: bold;
+}
+.italica{
+    font-style: italic;
+}
+.sansserif{
+    font-family: helvetica;
+    font-size: 15px;
+}
+#datos{
+  display: inlin-flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+#pelis{
+  position: relative;
+  margin: 15px;
+  border: 3px dashed deeppink;
+  display: inline-flex;
+  flex-direction: column;
+}
+#musicxs{
+  position: relative;
+  margin: 15px;
+  border: 3px dashed deeppink;
+  display: inline-flex;
+  flex-direction: column;
+}
+#contenedor{
+  margin: 15px;
+  border: 2px solid green;
+p{
+  font-family: helvetica;
+}
+li{
+  font-family: helvetica;
+}
+#perfil{
+  font-size: 50px;
+}

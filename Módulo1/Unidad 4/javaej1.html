@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      var kms;
+
+      kms=prompt('ingrese los kms:','');
+
+      kms=parseInt(kms); // parseInt > para que el operador + sume los contenidos de los valores numéricos ingresados por teclado
+
+      if (kms<=1000){
+        document.write('pie');
+      }else{
+        if (kms<=10000)  {
+          document.write('bicicleta');
+        }else{
+          if (kms<=30000) {
+            document.write('colectivo');
+          }else {
+            if (kms<=100000) {
+              document.write('auto');
+            }else {
+              if (kms>100000) {
+                document.write('avión');
+              }
+            }
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
